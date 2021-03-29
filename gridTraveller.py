@@ -5,6 +5,8 @@
 
 def gridTraveller(m,n,dict={}):
     key = str(m) + "," + str(n)
+    if (key in dict):
+        return dict[key]
     if m == 1 and n == 1 :
         return 1
     if m == 0 or n == 0 :

@@ -16,5 +16,5 @@ def gridTraveller(m,n,dict={}):
 
 print(gridTraveller(2,3))
 print(gridTraveller(3,3))
-print(gridTraveller(4,3))
+print(gridTraveller(18,18))
 
